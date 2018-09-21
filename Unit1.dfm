@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 192
-  Top = 125
+  Left = 191
+  Top = 127
   Width = 928
   Height = 480
   Caption = 'Form1'
@@ -13,12 +13,28 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object ListBox1: TListBox
-    Left = 320
-    Top = 168
-    Width = 121
-    Height = 97
-    ItemHeight = 13
+  object Button1: TButton
+    Left = 280
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
     TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 344
+    Top = 216
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 408
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Button3'
+    TabOrder = 2
   end
 end
